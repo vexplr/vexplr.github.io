@@ -1,0 +1,140 @@
+body{
+	background-color: #171717!important;
+}
+.col-md-12 .navbar{
+	background-color: #262626;
+	border-radius: 0%;
+	border-color:#262626;
+}
+.navbar-collapse ul li a{
+	color:white;
+}
+.dropdown-menu li a{
+	color:black;
+}
+a:hover{
+	background-color:silver;
+}
+/*PLR BLOG*/
+.navbar-brand .navbar-default .navbar-brand{
+		background-color:  #262626; 
+		color: white;
+	 }
+/*navbar text color*/
+.aboutus{
+			color: white !important;
+		}
+/*about us background color*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color:#404248;
+}
+/*dropdown bg color*/
+.dropdown .dropdown-menu{
+	background-color:#868a8e;
+}
+/*image*/
+.personsname{
+	width: auto;
+	height: 100px;
+	color: white;
+	background-color:#262626;
+	font-size: 65px;
+	text-align: center;
+	font-family: "Helvetica";
+}
+/*Big Solo photos*/
+.div-photos{
+	margin-top: 30px;
+	text-align: center;
+}
+.self-photos{
+	width: 450px;
+	height: auto;
+	margin-right: 10px;
+}
+.experience{
+	width: 300px;
+	height: 130px;
+	background-color:#262626;
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+/*cap*/
+.cap{
+	width: auto;
+	background-color:#262626; /* navyblue  #00427c grey #404248 #e7e7e7 #232425 #2f3031 #eee dark grey #24292e*/
+}
+.col-sm-4 img{
+	width:auto;
+	height: 400px;
+}
+.cap-text{
+	color: white;
+	height: 100%
+	font-size: 16px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.intro{
+	height:150px;
+	margin-top:30px;
+	margin-bottom: 50px;
+	background-color: #262626;
+	color: white;
+	text-align: center;	
+}
+.moments{
+	width: 600px;
+	height: 80px;
+	color: black;
+	font-size: 50px;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.col-md-4 .col-md-3{
+	height:280px;
+	margin-top:30px;
+	margin-bottom: 50px;
+	background-color: #262626;
+	color: white;
+	text-align: center;	
+}
+/*Moments cards*/
+.card {
+	background-color: #262626;
+	color: white;
+	height: 425px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 10px;
+
+}
+.card-text{
+	padding: 10px;
+}
+.card button{
+	background-color:#171717;
+}
+
+/*More details*/
+.btn{
+	color:white;
+}
+.footer{
+	width: auto;
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: #262626;
+}
+
+.text-muted{
+	color:#eee;
+	width: auto;
+	
+}
