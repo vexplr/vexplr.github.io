@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PLR-About Us</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+	<link rel="stylesheet" type="text/css" href="aboutus.css">
+	<script src="./jquery-1.12.4.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<script type="text/javascript">
+		$(function(){
+				var $btn=$('.btns input');
+				var $div=$('.cons div');
+				var $slides=$('.cons .slides');
+				$btn.click(function(){
+					// $(this).addClass("current").siblings().removeClass("current");
+					// $div.eq($(this).index()).addClass("active").siblings().removeClass("active");
+					$(this).addClass('current').siblings().removeClass('current');
+					$slides.stop().animate({"left":-800*$(this).index()});
+					console.log("01");
+				})
+			})
+	</script>
+</head>
+<body>
+
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="navbar-header">
+								 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand aboutus" href="../index.html">PLR BLOG</a>
+							</div>
+							
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li class="active">
+										 <a href="#" class="aboutusbar">About Us</a>
+									</li>
+									<li>
+										 <a href="#" class="aboutusbar">Our Blog</a>
+									</li>
+									<li class="dropdown names">
+										 <a href="#" class="dropdown-toggle aboutus" data-toggle="dropdown">More<strong class="caret"></strong></a>
+										<ul class="dropdown-menu">
+											<li>
+												 <a href="#">Photos</a>
+											</li>
+											<li>
+												 <a href="#">Videos</a>
+											</li>
+											<li>
+												 <a href="#">Labor Division</a>
+											</li>
+											<li>
+												 <a href="#">Friends' Blog</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<form class="navbar-form navbar-left" role="search">
+									<div class="form-group">
+										<input type="text" class="form-control" />
+									</div> <button type="submit" class="btn btn-default" style="background-color: #00427c; color: #eee">Search</button>
+								</form>
+								<ul class="nav navbar-nav navbar-right">
+									<li>
+										<a href="#" id="Program">Program</a>
+									</li>
+									<li class="dropdown">
+										 <a href="#" class="dropdown-toggle aboutus" data-toggle="dropdown">Members<strong class="caret"></strong></a>
+										<ul class="dropdown-menu">
+											<li>
+												 <a href="../members/Jamie/Jamie.html">Jamie Liu</a>
+											</li>
+											
+											<li>
+                                                <a href="#">Lynn Shen</a>
+                                           </li>
+                                           <li class="divider">
+											</li>
+											<li>
+												 <a href="#">Charley Qiu</a>
+											</li>
+											
+                                            <li>
+                                                <a href="#">Lydia Zhang</a>
+										   </li>
+										   <li class="divider">
+										   </li>
+											<li>
+												 <a href="#">Daniel Zeng</a>
+											</li>
+											<li>
+												 <a href="#">Tommy Feng</a>
+                                            </li>
+
+										</ul>
+									</li>
+								</ul>
+							</div>
+							
+						</nav>
+					</div>
+				</div>
+
+				<div class="row changeimages">
+					<div class="aboutusname">About Us</div>
+						<div>
+							<center>
+								<img class="logo-image" src="LOGO plane.png">
+							</center>
+							<p class="credit">Made by Daniel Zeng</p>
+						</div>
+						<div class="row clearfix">
+							<div class="col-md-4 column">
+								<h3>
+									Drivers
+								</h3>
+								<p>
+									Jamie Liu & Lynn Shen
+								</p>
+								<img class="group-photo" src="操作手合照.jpeg">
+							</div>
+							<div class="col-md-4 column">
+								<h3>
+									Builders
+								</h3>
+								<p>
+									Daniel Zeng & Tommy Feng
+								</p>
+								<img class="group-photo" src="搭建组合照.jpeg">
+							</div>
+							<div class="col-md-4 column">
+								<h3>
+									Coders
+								</h3>
+								<p>
+									Charley Qiu & Lydia Zhang
+								</p>
+								<img class="group-photo" src="编程组合照.jpeg">
+							</div>
+						</div>
+					</div>
+				
+				<center>
+					<div class="btns">
+							<input type="button" name="" value="Pu" class="current">
+							<input type="button" name="" value="Lao">
+							<input type="button" name="" value="Robotics">
+						</div>
+						<div class="cons">
+							<div id="div1" class="slides">
+								<div><img src="合照滤镜.png"></div>
+								<div><img src="合照.jpeg"></div>
+								<div><img src="PLR模拟赛.jpeg"></div>
+							</div>
+						</div>
+					</div>
+				</center>
+			</div>
+				<footer class="footer mt-auto py-3">
+				  <div class="container">
+				    <span class="text-muted">Copyright © 2020 PLR VEX Blog</span>
+				  </div>
+				</footer>
+
+</body>
+</html>
