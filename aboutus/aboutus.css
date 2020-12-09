@@ -1,0 +1,152 @@
+body{
+	background-color: #171717!important;
+}
+.col-md-12 .navbar{
+	background-color: #262626;
+	border-radius: 0%;
+	border-color:#262626;
+}
+.navbar-collapse ul li a{
+	color:white;
+}
+.dropdown-menu li a{
+	color:black;
+}
+a:hover{
+	background-color:silver;
+}
+/*PLR BLOG*/
+.navbar-brand .navbar-default .navbar-brand{
+		background-color:  #262626; 
+		color: white;
+	 }
+#Program{
+	color: white;
+}
+/*navbar text color*/
+.aboutusbar{
+			color: white !important;
+		}
+/*about us background color*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color:#404248;
+	color: white;
+}
+/*dropdown bg color*/
+.dropdown .dropdown-menu{
+	background-color:#868a8e;
+}
+/*title*/
+.aboutusname{
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	color: white;
+	background-color: #262626;
+	margin-bottom: 30px;
+}
+.logo-image{
+	width: 900px;
+	height: auto;
+}
+.credit{
+	font-size: 10px;
+	color:#e7e7e7;
+	text-align: center;
+	margin-top: 10px;
+}
+.cap{
+	width: auto;
+	background-color:#262626; /* navyblue  #00427c grey #404248 #e7e7e7 #232425 #2f3031 #eee dark grey #24292e*/
+}
+.cap-text{
+	color: white;
+	height: 100%
+	font-size: 16px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*3 text areas*/
+.col-md-4{
+	padding-top:30px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+}
+/*Group names*/
+.col-md-4 h3{
+	margin-left: 40px;
+	background-color: #404248;
+	width: 200px;
+}
+/*Member's names*/
+.col-md-4 p{
+	width: 500px;
+	padding-left: 80px;
+	font-size: 20px;
+}
+.group-photo{
+	width: 250px;
+	height: auto;
+	margin-left: 120px;
+}
+/*change images*/
+
+.btns input{
+	width: 100px;
+	height: 40px;
+	background-color: #404248;
+	color: #fd8e00;
+	border: 0;
+	outline:none;
+}
+.btns .current{
+	background-color:#777;
+}
+.slides{
+	/*width: 1800px;*/
+	height: 600px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cons{
+	width: 800px;
+	height: 600px;
+	overflow: hidden; /*隐藏超出部分*/
+	position: relative;
+}
+.cons .slides div{
+	width: 800px;
+	height: 600px;
+	background-color: #171717;
+	text-align: center;
+	line-height: 300px;
+	font-size: 30px;
+	float:left;
+}
+.cons .active{
+	display: block;
+}
+.cons img{
+	width:800px;
+	height:auto;
+}
+/*More details*/
+.btn{
+	color:white;
+}
+.footer{
+	width: auto;
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: #262626;
+}
+
+.text-muted{
+	color:#eee;
+	width: auto;
+	
+}

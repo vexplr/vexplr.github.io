@@ -1,0 +1,93 @@
+body{
+	background-color: #171717!important;
+}
+.col-md-12 .navbar{
+	background-color: #262626;
+	border-radius: 0%;
+	border-color:#262626;
+}
+.navbar-collapse ul li a{
+	color:white;
+}
+.dropdown-menu li a{
+	color:black;
+}
+a:hover{
+	background-color:silver;
+}
+/*PLR BLOG*/
+.navbar-brand{
+		background-color:  #262626; 
+	 }
+/*navbar text color*/
+.aboutus{
+			color: white !important;
+		}
+/*about us background color*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color:#404248;
+}
+/*dropdown bg color*/
+.dropdown .dropdown-menu{
+	background-color:#868a8e;
+}
+/*typing styles*/
+    .typewrite-wrap {
+        color: white !important;
+        /*font-family: "Poppins";*/
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.4rem;
+    }
+    .typewriter {
+        text-align: center;
+    }
+    @media(max-width: 719px) {
+        .typewrite-wrap {
+            font-size: 1.3rem;
+            text-align: left;
+        }
+        .typewriter {
+            text-align: left;
+        }
+	}
+/*image*/
+.front-cover{
+		width: 100%;
+		height: 100%;
+
+		}
+.col-md-4{
+	padding-top:30px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+}
+.cap{
+	margin-top: 40px;
+	width: auto;
+	background-color:#262626; /* navyblue  #00427c grey #404248 #e7e7e7 #232425 #2f3031 #eee dark grey #24292e*/
+}
+.cap-text{
+	color: white;
+	height: 100%
+	font-size: 16px;
+	text-align: center;
+	padding-top: 100px;
+}
+/*More details*/
+.btn{
+	color:white;
+}
+.footer{
+	width: auto;
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: #262626;
+}
+
+.text-muted{
+	color:#eee;
+	width: auto;
+	
+}
