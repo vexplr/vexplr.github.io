@@ -1,0 +1,120 @@
+body{
+	background-color: #171717!important;
+}
+.col-md-12 .navbar{
+	background-color: #262626;
+	border-radius: 0%;
+	border-color:#262626;
+}
+.navbar-collapse ul li a{
+	color:white;
+}
+.dropdown-menu li a{
+	color:black;
+}
+a:hover{
+	background-color:silver;
+}
+/*PLR BLOG*/
+.navbar-brand{
+		background-color:  #262626; 
+	 }
+/*navbar text color*/
+.aboutus{
+			color: white !important;
+		}
+/*about us background color*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color:#404248;
+}
+/*dropdown bg color*/
+.dropdown .dropdown-menu{
+	background-color:#868a8e;
+}
+/*typing styles*/
+    .typewrite-wrap {
+        color: white !important;
+        /*font-family: "Poppins";*/
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.4rem;
+    }
+    .typewriter {
+        text-align: center;
+    }
+    @media(max-width: 719px) {
+        .typewrite-wrap {
+            font-size: 1.3rem;
+            text-align: left;
+        }
+        .typewriter {
+            text-align: left;
+        }
+	}
+/*image*/
+.title{
+	color: black;
+	text-align: center;
+	background-color: #e7e7e7;
+	font-size: 65px;
+	margin-bottom: 30px;
+
+}
+.col-md-3{
+	padding-top:30px;
+	padding-bottom: 30px;
+	background-color: #262626;
+	text-align: center;
+	color: white;
+}
+.cap{
+	margin-top: 40px;
+	width: auto;
+	background-color:#262626; /* navyblue  #00427c grey #404248 #e7e7e7 #232425 #2f3031 #eee dark grey #24292e*/
+}
+.cap-text{
+	color: white;
+	height: 100%
+	font-size: 14px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.content{
+	margin-bottom: 50px;
+}
+/*photos*/
+.photos{
+	width: 250px;
+	height: 187.5px;
+	margin-bottom: 20px;
+}
+.text-describtion{
+	width: 100px;
+	height: auto;
+	color: black;
+	background-color: #e7e7e7;
+}
+.describtion{
+	margin-bottom: 60px;
+}
+.btn-comment{
+	background-color: #00427c; 
+	color: #eee;
+}
+/*More details*/
+.btn{
+	color:white;
+}
+.footer{
+	width: auto;
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: #262626;
+}
+
+.text-muted{
+	color:#eee;
+	width: auto;
+	
+}
